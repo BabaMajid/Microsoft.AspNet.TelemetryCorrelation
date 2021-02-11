@@ -20,8 +20,8 @@ steps:
   inputs:
     SonarQube: 'SonarQube'
     scannerMode: 'MSBuild'
-    projectKey: 'OWASP'
-    projectName: 'OWASP'
+    projectKey: 'test'
+    projectName: 'test'
 - task: NuGetCommand@2
   inputs:
     restoreSolution: '$(solution)'
