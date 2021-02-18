@@ -24,8 +24,8 @@ steps:
   inputs:
     SonarQube: 'SonarQube'
     scannerMode: 'MSBuild'
-    projectKey: 'engro'
-    projectName: 'test'
+    projectKey: 'test1'
+    projectName: 'test1'
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
